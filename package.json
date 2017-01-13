@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "test.watch": "jest --watch"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-jest": "^18.0.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "jest": "^18.1.0",
+    "react": "^15.4.2",
+    "react-test-renderer": "^15.4.2"
+  },
+  "jest": {
+    "modulePathIgnorePatterns": [
+      ".cache/yarn/"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!**/__tests__/**"
+    ]
+  }
+}

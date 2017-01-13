@@ -1,0 +1,15 @@
+{
+  "presets": [
+    ["latest", {
+      "es2015": { "loose": true, "modules": false }
+    }],
+    "react"
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        ["es2015", { "loose": true }]
+      ]
+    }
+  }
+}
